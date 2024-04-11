@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE PC.csv
+APPEND INTO TABLE PC
+FIELDS TERMINATED BY ','
+(model,speed, ram, hd, price)

@@ -1,0 +1,5 @@
+load data
+infile 'studio.csv'
+into table Studio
+fields terminated by "," optionally enclosed by '"'		  
+( name, address, certno )

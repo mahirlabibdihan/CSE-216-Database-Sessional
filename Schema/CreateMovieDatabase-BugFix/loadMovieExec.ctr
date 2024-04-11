@@ -1,0 +1,5 @@
+load data
+infile 'movieExec.csv'
+into table MovieExec
+fields terminated by "," optionally enclosed by '"'		  
+( name, certno, address, wealth )

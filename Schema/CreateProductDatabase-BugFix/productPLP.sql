@@ -1,0 +1,38 @@
+CREATE TABLE PC (
+ MODEL NUMBER(4) PRIMARY KEY,
+ SPEED  NUMBER(3,2),
+ RAM    NUMBER(4),
+ HD     NUMBER(3),
+ PRICE  NUMBER(7,2)
+ );
+ 
+ CREATE TABLE Product (
+ MAKER VARCHAR2(25),
+ MODEL NUMBER(4) PRIMARY KEY,
+ TYPE  VARCHAR2(7)
+ );
+ 
+ CREATE TABLE Laptop(
+ MODEL  NUMBER(4) PRIMARY KEY,
+ SPEED  NUMBER(3,2),
+ RAM    NUMBER(4),
+ HD     NUMBER(3),
+ SCREEN NUMBER(3,1),
+ PRICE  NUMBER(7,2)
+ );
+ 
+ CREATE TABLE Printer(
+ MODEL NUMBER(4) PRIMARY KEY,
+ COLOR CHAR(1),
+ TYPE  VARCHAR2(7),
+ PRICE NUMBER(7,2)
+); 
+
+describe Product;
+
+describe PC;
+
+describe Laptop;
+
+describe Printer
+ 

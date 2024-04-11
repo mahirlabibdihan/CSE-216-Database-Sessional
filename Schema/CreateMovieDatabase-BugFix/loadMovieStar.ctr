@@ -1,0 +1,5 @@
+load data
+infile 'movieStar.csv'
+into table MovieStar
+fields terminated by "," optionally enclosed by '"'		  
+( name, birth, wealth, address )
