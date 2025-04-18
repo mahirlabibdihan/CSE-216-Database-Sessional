@@ -1,0 +1,12 @@
+SELECT COUNT(*) AS Product FROM Product;
+SELECT COUNT(*) AS PC FROM PC;
+SELECT COUNT(*) Laptop FROM Laptop;
+SELECT COUNT(*) Printer FROM Printer;
+
+SELECT maker
+FROM PC, Product
+WHERE PC.model = Product.model
+UNION
+SELECT maker
+FROM Laptop, Product
+WHERE Laptop.model = Product.model;

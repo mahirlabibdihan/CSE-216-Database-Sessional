@@ -1,0 +1,69 @@
+
+\documentclass[11pt]{article}
+
+% Default margins are too wide all the way around. I reset them here
+\setlength{\topmargin}{-.5in}
+\setlength{\textheight}{9in}
+\setlength{\oddsidemargin}{.125in}
+\setlength{\textwidth}{6.25in}
+\usepackage[obeyspaces]{url}
+\begin{document}
+\title{How to create movie data base from data dumps}
+\author{Ashikur Rahman\\
+CSE, BUET}
+\maketitle
+
+
+
+You should be logged onto one of the Windows machine. Download the compressed file and unpack everything, you will automatically
+get a folder called \url{CreateMovieDatabase}. Copy this to C:\ drive or at your desired location.
+Open the command promt first by typing 'command' in the Windows 'Run' box.
+
+ Now, move to the folder \url{CreateMovieDatabase}. If you have 
+copied the \url{CreateMovieDatabase} folder to c:\ drive then type
+the following command in the command promt once you are on the c:\ drive :
+\\
+\\
+\noindent   \url{cd CreateMovieDatabase}
+\\
+
+Now run the movie\_dbase.sql script by typing the following:
+\\
+\\
+\noindent   \url{sqlplus <name>/<password> @movie_dbase}
+\\
+\\
+Quit from the \url{sqlplus} by typing \url{quit}.
+\\
+\\
+Then load the data for Movie table by typing:
+\\
+\\
+\noindent   \url{sqlldr <name>/<password> control=loadMovie.ctr log=movie.log bad=movie.bad}
+\\
+\\
+Load the data for MovieStar table by typing:
+\\
+\\
+\noindent   \url{sqlldr <name>/<password> control=loadMovieStar.ctr log=movieStar.log bad=movieStar.bad}
+\\
+\\
+Then load the data for StarsIn table by typing:
+\\
+\\
+\noindent   \url{sqlldr <name>/<password> control=loadStarsIn.ctr log=starsIn.log bad=starsIn.bad}
+\\
+\\
+Load the data for MovieExec table by typing:
+\\
+\\
+\noindent   \url{sqlldr <name>/<password> control=loadMovieExec.ctr log=movieExec.log bad=movieExec.bad}
+\\
+\\
+Finally, load the data for Studio table by typing:
+\\
+\\
+\noindent   \url{sqlldr <name>/<password> control=loadStudio.ctr log=studio.log bad=studio.bad}
+
+
+\end{document}

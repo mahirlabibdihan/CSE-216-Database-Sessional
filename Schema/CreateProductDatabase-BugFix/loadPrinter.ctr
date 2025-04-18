@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE Printer.csv
+APPEND INTO TABLE Printer
+FIELDS TERMINATED BY ','
+(model,color,type,price)

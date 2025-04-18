@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE Laptop.csv
+APPEND INTO TABLE Laptop
+FIELDS TERMINATED BY ','
+(model,speed, ram, hd, screen, price)

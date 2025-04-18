@@ -1,0 +1,5 @@
+load data
+infile 'movie.csv'
+into table Movie
+fields terminated by "," optionally enclosed by '"'		  
+( title, year, length, genre )

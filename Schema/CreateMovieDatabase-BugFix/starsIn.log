@@ -1,0 +1,205 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sun May 22 20:24:22 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   loadStarsIn.ctr
+Data File:      starsIn.csv
+  Bad File:     starsIn.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table STARSIN, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+TITLE                               FIRST     *   ,  O(") CHARACTER            
+YEAR                                 NEXT     *   ,  O(") CHARACTER            
+NAME                                 NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table STARSIN, column YEAR.
+ORA-01722: invalid number
+
+Record 5: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 13: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 15: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 26: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 52, maximum: 50)
+
+Record 39: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 40: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 41: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 42: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 43: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 44: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 45: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 46: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 47: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 48: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 49: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 50: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 53, maximum: 50)
+
+Record 51: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 53, maximum: 50)
+
+Record 52: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 53, maximum: 50)
+
+Record 62: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 52, maximum: 50)
+
+Record 74: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 52, maximum: 50)
+
+Record 80: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 81: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 103: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 104: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 105: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 106: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 107: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 108: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 109: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 128: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 52, maximum: 50)
+
+Record 187: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 190: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 53, maximum: 50)
+
+Record 191: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 53, maximum: 50)
+
+Record 192: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 197: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 52, maximum: 50)
+
+Record 198: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 200: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 201: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 243: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 276: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 278: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 279: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 296: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 306: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 345: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 52, maximum: 50)
+
+Record 346: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 347: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 363: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 381: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+Record 395: Rejected - Error on table STARSIN, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."STARSIN"."TITLE" (actual: 51, maximum: 50)
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table STARSIN:
+  344 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 193500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           500
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Sun May 22 20:24:22 2022
+Run ended on Sun May 22 20:24:23 2022
+
+Elapsed time was:     00:00:00.23
+CPU time was:         00:00:00.09

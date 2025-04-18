@@ -1,0 +1,54 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sun May 22 20:25:03 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   loadStudio.ctr
+Data File:      studio.csv
+  Bad File:     studio.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table STUDIO, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+NAME                                FIRST     *   ,  O(") CHARACTER            
+ADDRESS                              NEXT     *   ,  O(") CHARACTER            
+CERTNO                               NEXT     *   ,  O(") CHARACTER            
+
+Record 226: Discarded - all columns null.
+Record 1: Rejected - Error on table STUDIO, column CERTNO.
+ORA-01722: invalid number
+
+
+Table STUDIO:
+  224 Rows successfully loaded.
+  1 Row not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  1 Row not loaded because all fields were null.
+
+
+Space allocated for bind array:                 193500 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           226
+Total logical records rejected:         1
+Total logical records discarded:        1
+
+Run began on Sun May 22 20:25:03 2022
+Run ended on Sun May 22 20:25:03 2022
+
+Elapsed time was:     00:00:00.31
+CPU time was:         00:00:00.13

@@ -1,0 +1,5 @@
+load data
+infile 'starsIn.csv'
+into table StarsIn
+fields terminated by "," optionally enclosed by '"'		  
+( title, year, name )

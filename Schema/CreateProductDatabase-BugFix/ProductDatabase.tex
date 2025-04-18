@@ -1,0 +1,65 @@
+
+\documentclass[11pt]{article}
+
+% Default margins are too wide all the way around. I reset them here
+\setlength{\topmargin}{-.5in}
+\setlength{\textheight}{9in}
+\setlength{\oddsidemargin}{.125in}
+\setlength{\textwidth}{6.25in}
+\usepackage[obeyspaces]{url}
+\begin{document}
+\title{How to create product data base from data dumps}
+\author{Ashikur Rahman\\
+CSE, BUET}
+\maketitle
+
+
+
+You should be logged onto one of the Windows machine. Download the compressed file and unpack everything, you will automatically
+get a folder called \url{CreateProductDatabase}. Copy this to C:\ drive or at your desired location.
+Open the command promt first by typing 'command' in the Windows 'Run' box.
+
+ Now, move to the folder \url{CreateProductDatabase}. If you have 
+copied the \url{CreateProductDatabase} folder to c:\ drive then type
+the following command in the command promt once you are on the c:\ drive :
+\\
+\\
+\noindent   \url{cd CreateProductDatabase}
+\\
+
+Now run the productPLP.sql script by typing the following:
+\\
+\\
+\noindent   \url{sqlplus <yourName>/<yourPassword> @productPLP}
+\\
+\\
+Quit from the \url{sqlplus} by typing \url{quit}.
+\\
+\\
+Then load the data for PC table by typing:
+\\
+\\
+\noindent   \url{sqlldr <yourName>/<yourPassword> control=loadPC.ctr log=pc.log bad=pc.bad}
+\\
+\\
+Load the data for Laptop table by typing:
+\\
+\\
+\noindent   \url{sqlldr <yourName>/<yourPassword> control=loadLaptop.ctr log=Laptop.log bad=Laptop.bad}
+\\
+\\
+Then load the data for Printer table by typing:
+\\
+\\
+\noindent   \url{sqlldr <yourName>/<yourPassword> control=loadPrinter.ctr log=printer.log bad=printer.bad}
+\\
+\\
+Finally, Load the data for Product table by typing:
+\\
+\\
+\noindent   \url{sqlldr <yourName>/<yourPassword> control=loadProduct.ctr log=product.log bad=product.bad}
+\\
+\\
+
+
+\end{document}

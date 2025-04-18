@@ -1,0 +1,206 @@
+
+SQL*Loader: Release 19.0.0.0.0 - Production on Sun May 22 20:20:19 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   loadMovie.ctr
+Data File:      movie.csv
+  Bad File:     movie.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table MOVIE, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+TITLE                               FIRST     *   ,  O(") CHARACTER            
+YEAR                                 NEXT     *   ,  O(") CHARACTER            
+LENGTH                               NEXT     *   ,  O(") CHARACTER            
+GENRE                                NEXT     *   ,  O(") CHARACTER            
+
+Record 1: Rejected - Error on table MOVIE, column YEAR.
+ORA-01722: invalid number
+
+Record 2: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 3: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 4: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 5: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 6: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 7: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 8: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 53, maximum: 50)
+
+Record 11: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 19: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 52, maximum: 50)
+
+Record 32: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 52, maximum: 50)
+
+Record 37: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 38: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 52, maximum: 50)
+
+Record 44: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 55: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 56: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 57: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 58: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 59: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 60: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 61: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 70: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 71: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 82: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 83: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 85: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 91: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 98: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 106: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 110: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 114: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 122: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 124: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 129: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 52, maximum: 50)
+
+Record 131: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 135: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 139: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 52, maximum: 50)
+
+Record 145: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 146: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 147: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 165: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 178: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 197: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 198: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 200: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 53, maximum: 50)
+
+Record 201: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 206: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 208: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 209: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+Record 215: Rejected - Error on table MOVIE, column GENRE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."GENRE" (actual: 31, maximum: 30)
+
+Record 223: Rejected - Error on table MOVIE, column TITLE.
+ORA-12899: value too large for column "C##MOVIE"."MOVIE"."TITLE" (actual: 51, maximum: 50)
+
+
+MAXIMUM ERROR COUNT EXCEEDED - Above statistics reflect partial run.
+
+Table MOVIE:
+  172 Rows successfully loaded.
+  51 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 258000 bytes(250 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:           250
+Total logical records rejected:        51
+Total logical records discarded:        0
+
+Run began on Sun May 22 20:20:19 2022
+Run ended on Sun May 22 20:20:19 2022
+
+Elapsed time was:     00:00:00.42
+CPU time was:         00:00:00.11

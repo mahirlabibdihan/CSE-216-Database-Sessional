@@ -1,0 +1,5 @@
+LOAD DATA
+INFILE Product.csv
+APPEND INTO TABLE Product
+FIELDS TERMINATED BY ','
+(maker,model,type)
